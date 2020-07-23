@@ -1,3 +1,4 @@
+#for eye detection in a image
 import cv2
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 cap = cv2.VideoCapture("elon_musk_royal_society.jpg")
